@@ -1,42 +1,55 @@
-<!--Azlan Khan Mehsud, i26-3010, SE-A, Travel Postcard.-->>
+<!--Azlan Khan Mehsud, i26-3010, SE-A, Travel Postcard.-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>  
-<title>Travel Postcard</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Travel Postcard - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Liberation Through Travel</h1>
-<p>To travel is to free the soul. The entirety of the Earth lay beneath your feet,
-    it is yours to explore. Below you will find a table that I have assembled for your
-    information and convenience. Let your journey free your soul.
-</p>
-<table>
-  <tr>
-    <th>Country</th>
-    <th>Cities to visit</th>
-    <th>Relevant info</th>
-  </tr>
-  <tr>
-    <td>Switzerland</td>
-    <td>Zurich, Graubünden</td>
-    <td>Graubünden is the largest and easternmost canton of Switzerland, known for
-        its dramatic high-altitude alpine scenery, deep river valleys, and 
-        trilingual culture. <br><br> Zürich is Switzerland's largest city and 
-        a global financial hub located at the northwestern tip of Lake Zürich. </td>
-  </tr>
-  <tr>
-    <td>Japan</td>
-    <td>Tokyo, Osaka</td>
-    <td>Tokyo is Japan's most busy capital and most populous metropolis, blending futuristic 
-        neon skyscrapers with historic temples and shrines. <br> <br>
-        Osaka is the primary economic and cultural hub of the Kansai region. 
-        It is globally famous for its lively street food culture 
-        (like takoyaki and okonomiyaki), the neon-lit nightlife of Dotonbori, 
-        and landmarks like Osaka Castle and Universal Studios Japan.</td>
-  </tr>
-</table>
-<img src="/images/images.jpg" alt="Japan Poster">
-<button type="button">Fun Fact</button>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="places.html">Places to Visit</a>
+        <a href="tips.html">Travel Tips</a>
+    </nav>
+
+    <h1>Liberation Through Travel</h1>
+    <p>To travel is to free the soul. The entirety of the Earth lay beneath your feet,
+        it is yours to explore. Below you will find a table that I have assembled for your
+        information and convenience. Let your journey free your soul.
+    </p>
+
+    <div class="home-container">
+        <div class="table-section">
+            <table>
+              <tr>
+                <th>Country</th>
+                <th>Cities to visit</th>
+                <th>Relevant info</th>
+              </tr>
+              <tr>
+                <td>Switzerland</td>
+                <td>Zurich, Graubünden</td>
+                <td>Graubünden is known for its dramatic alpine scenery and deep river valleys.<br><br> 
+                    Zürich is a global financial hub at the tip of Lake Zürich.</td>
+              </tr>
+              <tr>
+                <td>Japan</td>
+                <td>Tokyo, Osaka</td>
+                <td>Tokyo blends neon skyscrapers with historic temples.<br><br>
+                    Osaka is famous for its lively street food culture and neon-lit nightlife.</td>
+              </tr>
+            </table>
+        </div>
+        <div class="image-section">
+            <img src="images/travel-poster.jpg" alt="Scenic Mountain Travel Poster">
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button type="button" id="factBtn">Fun Fact</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
