@@ -4,41 +4,42 @@
   src: url('Switzer_Complete/Fonts/OTF/Switzer-Black.otf') format('woff2');
 }
 body {
-    background-color: #a7d4ee;
+    background-color: #E6F0F5; /* Primary Background */
+    color: #1A365D; /* Text & Headings */
     margin: 0;
     padding: 0;
 }
 
 /* Navigation Bar */
 nav {
-    background-color: bisque;
+    background-color: #E5C3A6; 
     padding: 15px;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1A365D; 
 }
 nav a {
     font-family: 'Switzer', sans-serif;
     font-size: 20px;
-    color: #00aeff;
+    color: #1A365D; 
     text-decoration: none;
     margin: 0 20px;
     font-weight: bold;
 }
 nav a:hover {
-    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 /* Typography */
 h1 {
     font-size: 60px;
     font-family: 'Switzer', sans-serif;
-    color: #00aeff;
+    color: #1A365D; 
     text-align: center;
 }
 p {
     font-family: 'Switzer', sans-serif;
     font-size: 25px;
-    color: #00aeff;
+    color: #1A365D; 
     padding: 10px 20px;
     text-align: center;
     max-width: 900px;
@@ -67,7 +68,7 @@ p {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #1A365D; 
     padding: 0;
 }
 
@@ -75,18 +76,22 @@ p {
 table {
     border-collapse: collapse;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 th, td {
-    border: 1px solid black;
+    border: 1px solid #1A365D; 
     padding: 20px; 
     font-family: 'Switzer', sans-serif;
     text-align: center;
 }
 th {
-    background-color: bisque;
+    background-color: #E5C3A6; 
     font-size: 22px;
+    color: #1A365D;
+}
+td {
+    background-color: #FFFFFF; 
+    color: #1A365D;
 }
 
 /* Interactive Elements */
@@ -94,25 +99,51 @@ th {
     text-align: center;
 }
 button {
-    background-color: bisque;
+    background-color: #E5C3A6; 
+    color: #1A365D; 
     border-radius: 10px;
     margin: 20px;
     padding: 10px 20px;
     font-family: 'Switzer', sans-serif;
     font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
-    border: 1px solid black;
+    border: 2px solid #1A365D; 
 }
 button:hover {
-    background-color: #f5cda1;
+    background-color: #D98A6C; 
+    color: #FFFFFF;
 }
 
 /* Lists for Tips Page */
 ul {
     font-family: 'Switzer', sans-serif;
     font-size: 22px;
-    color: #00aeff;
+    color: #1A365D; 
     max-width: 800px;
     margin: 20px auto;
     line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #E5C3A6; 
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #1A365D; 
+    margin-top: 40px;
+}
+footer p {
+    font-size: 20px;
+    color: #1A365D;
+    margin: 0;
+    padding: 5px;
+}
+footer a {
+    color: #1A365D; 
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #D98A6C; 
 }
