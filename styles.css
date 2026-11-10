@@ -1,0 +1,43 @@
+/*Azlan Khan Mehsud, i26-3010, SE-A, Travel Postcard*/
+@font-face {
+  font-family: 'Switzer';
+  src: url('Switzer_Complete/Fonts/OTF/Switzer-Black.otf') format('woff2')
+}
+body {
+    background-color: #a7d4ee;
+}
+h1 {
+    font-size: 60;
+    font-family: Switzer;
+    color: #00aeff;
+}
+p {
+    font-family: Switzer;
+    font-size: 25;
+    color: #00aeff;
+    padding:10px
+}
+th {
+    font-family: Switzer;
+}
+td {
+        text-align: center;
+        padding: 20px; 
+        font-family: Switzer;
+}
+table, th, td {
+  border: 1px solid black;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 20px;
+}
+img {
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
